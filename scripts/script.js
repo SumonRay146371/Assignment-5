@@ -111,10 +111,7 @@ function formSubmit(e) {
       input.value = "";
     });
   } else {
-    alert(`
-    "Please fill all the required fields."
-    "one feild must be selected"
-    `);
+    alert(`Please fill all the required fields.`);
   }
 }
 
